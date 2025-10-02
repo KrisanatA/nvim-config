@@ -13,6 +13,7 @@ return{
       { 'Kaiser-Yang/blink-cmp-git' },
       {
         'saghen/blink.compat',
+        enabled = false,
         dev = false,
         opts = { impersonate_nvim_cmp = true, enable_events = true, debug = true },
       },
