@@ -13,7 +13,6 @@ return{
       { 'Kaiser-Yang/blink-cmp-git' },
       {
         'saghen/blink.compat',
-        enabled = false,
         dev = false,
         opts = { impersonate_nvim_cmp = true, enable_events = true, debug = true },
       },
@@ -63,7 +62,7 @@ return{
             score_offset = 2,
           },
           symbols = { name = 'symbols', module = 'blink.compat.source' },
-        },
+        },  
       },
       appearance = {
         -- Sets the fallback highlight groups to nvim-cmp's highlight groups
@@ -76,12 +75,12 @@ return{
       },
       completion = {
         documentation = {
-          auto_show = true,
+          auto_show = false,
           auto_show_delay_ms = 100,
           treesitter_highlighting = true,
         },
         menu = {
-          auto_show = true,
+          auto_show = false,
         },
       },
       signature = { enabled = true },
