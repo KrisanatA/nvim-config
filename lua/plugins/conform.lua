@@ -16,7 +16,7 @@ return { -- Autoformat
           python = { 'isort', 'black' },
           quarto = { 'injected' },
           markdown = { 'injected' },
-          r = { 'styler' },
+          r = { 'air' },
         },
         formatters = {
           -- mystylua = {
